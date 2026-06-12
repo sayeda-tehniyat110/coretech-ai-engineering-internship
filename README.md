@@ -1,1 +1,1 @@
-# -coretech-ai-engineering-internship
+# coretech-ai-engineering-internship
