@@ -1,40 +1,5 @@
 # Task 03: Production-Grade Prompt Engineering Framework
 
-## Document Overview
-This specialized engineering resource establishes a master framework of **20 production-grade generative prompts** optimized for the corporate, creative, and technical workflows of CoreTech Innovation. 
-
-The structure decomposes each implementation into five vital layers:
-1. **Title:** Strategic structural objective.
-2. **Prompt Text:** The initial instruction issued to the LLM.
-3. **Expected Output:** The targeted structural transformation or asset required.
-4. **Improved Version:** An optimized, context-insulated prompt leveraging structural personas, zero-shot/few-shot constraints, and deterministic formatting parameters to guarantee superior enterprise-grade results.
-5. **Short Explanation:** An engineering analysis breakdown explaining why the structural improvements eliminate ambiguity and guarantee reproducible semantic accuracy.
-
----
-
-## Section 1: Website Content Generation (Sample View)
-
-### 1. CoreTech Main Landing Page Hero Copy
-* **Prompt Text:** Write a hero text section for our company website CoreTech Innovation. We do AI solutions and web development.
-* **Expected Output:** A catchy header, a short sub-headline, and a call-to-action button text that looks professional.
-* **Improved Version:**
-```text
-  [Persona]: Senior B2B SaaS Copywriter and Technical Brand Strategist.
-  [Context]: CoreTech Innovation is an engineering firm providing custom AI integrations, corporate front-end development, and enterprise database systems.
-  [Task]: Generate copy for the primary hero section of the corporate landing page.
-  [Constraints]: 
-  - Headline: Max 10 words, strong value statement, action-oriented.
-  - Sub-headline: Max 30 words, clear articulation of the technical capabilities (AI + Web Engineering) solving operational efficiency issues.
-  - Call-to-Action (CTA): Active command format, maximum 4 words.
-  [Tone]: Authoritative, cutting-edge, conversion-focused.
-  [Format]: 
-  ### Headline: [Insert]
-  ### Sub-headline: [Insert]
-  ### CTA Button: [Insert]
-
-
-  # Task 03: Production-Grade Prompt Engineering Framework
-
 ## Task Objective
 The objective of this task is to test and document how professional prompt structures (utilizing explicit context, roles, and constraints) improve AI code and content outputs compared to basic, lazy inputs. 
 
@@ -43,6 +8,7 @@ The objective of this task is to test and document how professional prompt struc
 ## Category 1: Website Content (Engineering Approach)
 
 ### Prompt 1.1: CoreTech Homepage Hero Headline
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Write a hero headline for a software development agency web page. |
@@ -51,6 +17,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | Giving it a role (startup copywriter) and mentioning our specific focus (full-stack web apps for startups) forces the AI to stop giving generic corporate fluff and write something sharp. |
 
 ### Prompt 1.2: Portfolio Project Description (Alibaba Clone)
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Write a short text describing an Alibaba clone project we built. |
@@ -59,6 +26,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | I explicitly forced the AI to use our engineering stack keywords (PHP, SQL, CSS Grid). This changes a simple description into a proper technical case study that looks good on GitHub. |
 
 ### Prompt 1.3: CoreTech Services Page Layout
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | List our services: web development, brand identity, and custom automation tools. |
@@ -67,6 +35,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | Instead of letting the AI write dry definitions, I told it exactly what our 3 services are and asked for "benefit-driven" bullets so it sounds appealing to a real client. |
 
 ### Prompt 1.4: About Us Section (Our Tech Background)
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Write an about us page introduction for CoreTech engineering agency. |
@@ -75,6 +44,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | Adding our core background (Computer Systems Engineering) makes the text authentic and distinct. Setting a 120-word limit also stops the AI from writing long, useless paragraphs. |
 
 ### Prompt 1.5: Project Inquiry Form FAQ
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Generate 3 FAQs for software development clients. |
@@ -87,6 +57,7 @@ The objective of this task is to test and document how professional prompt struc
 ## Category 2: Social Media Captions
 
 ### Prompt 2.1: My C++ Internship Project Post
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Write a LinkedIn post about finishing a C++ console project internship task. |
@@ -95,6 +66,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | I told the AI exactly what project I built (To-Do List) and what coding concept I used (OOP). Now the post will look like a real programming student wrote it. |
 
 ### Prompt 2.2: Instagram Carousel for UI/UX Design Tips
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Write tips on typography for designers for an Instagram post. |
@@ -103,6 +75,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | I told the AI to break the text slide-by-slide. This makes it easy to copy-paste directly into Canva or Figma for designing the post. |
 
 ### Prompt 2.3: Twitter Thread about Clean Coding
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Write tweets explaining why clean code matters. |
@@ -111,6 +84,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | Specifying the number of tweets and character limit stops the AI from generating text that is too long for Twitter. |
 
 ### Prompt 2.4: My AI Internship Announcement Post
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Write a post stating I started my AI internship at CoreTech Innovation. |
@@ -119,6 +93,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | Adding specific topics (Python automation, AI concepts) makes the announcement sound much more credible to tech recruiters on LinkedIn. |
 
 ### Prompt 2.5: Sharing My GitHub Repository
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Write a short post telling developers to check out my repository. |
@@ -131,6 +106,7 @@ The objective of this task is to test and document how professional prompt struc
 ## Category 3: Client Emails
 
 ### Prompt 3.1: Replying to a New Client Inquiry
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Email a potential client back who wants a web platform built. |
@@ -139,6 +115,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | By telling AI to ask 3 specific questions (requirements, budget, timeline), the email helps us get all the important project details before we start working. |
 
 ### Prompt 3.2: Sending Figma Designs for Review
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Tell the client the UI/UX mockups are finished in Figma. |
@@ -147,6 +124,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | Setting a deadline ("within 4 days") keeps the project on track and ensures the client knows their feedback is needed quickly to avoid delays. |
 
 ### Prompt 3.3: Handling Out-of-Scope Requests (Scope Creep)
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Reject a client request to add extra features for free. |
@@ -155,6 +133,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | Instead of saying a flat "No," this prompt helps us say no politely while offering helpful solutions, keeping the client relationship happy. |
 
 ### Prompt 3.4: Friendly Payment Reminder Email
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Send an invoice reminder email to a client who hasn't paid. |
@@ -163,6 +142,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | It removes any awkward or angry language, making it look like a standard, professional automated system reminder. |
 
 ### Prompt 3.5: Final Project Handover and Code Delivery
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Send the final project code and documentation to the client. |
@@ -175,6 +155,7 @@ The objective of this task is to test and document how professional prompt struc
 ## Category 4: Business Ideas
 
 ### Prompt 4.1: Tech Business Ideas for Students
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Give me 3 software business ideas. |
@@ -183,6 +164,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | It narrows down the scope for students (1-month timeline) and targets a specific audience (local freelancers), so the ideas are practical and achievable. |
 
 ### Prompt 4.2: Local Workflow Web App
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | What is a good business app idea for tech students? |
@@ -191,6 +173,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | This prompt focuses on a real workflow problem that engineering and design students face daily, making it a valuable project concept. |
 
 ### Prompt 4.3: Graphic Design & Web Micro-Agency Plan
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | How do I start a design web agency? |
@@ -203,6 +186,7 @@ The objective of this task is to test and document how professional prompt struc
 ## Category 5: Chatbot Responses
 
 ### Prompt 5.1: CoreTech Website Welcome Message
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | Write a greeting for a chatbot on an agency website. |
@@ -211,6 +195,7 @@ The objective of this task is to test and document how professional prompt struc
 | **Analysis (Why it works)** | It immediately gives the visitor clear options to click, routing them to the right place instead of letting them type long messages. |
 
 ### Prompt 5.2: Server Downtime / Error Response
+
 | Layer | Content / Technical Execution |
 | :--- | :--- |
 | **Initial Prompt (First Try)** | What should a chatbot say when a server crashes? |
